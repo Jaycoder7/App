@@ -1,7 +1,7 @@
 var config_data = `
 {
 
-  "title": "Scouting PASS 2023",
+  "title": "Scouting App 2023",
   "page_title": "Charged Up",
   "checkboxAs": "10",
   "prematch": [
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2022carv",
+      "defaultValue": "2022flwp",
       "required": "true",
       "disabled": "false"
     },
