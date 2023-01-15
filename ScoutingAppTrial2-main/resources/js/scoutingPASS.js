@@ -1,3 +1,4 @@
+
 // ScoutingPASS.js
 //
 // The guts of the ScountingPASS application
