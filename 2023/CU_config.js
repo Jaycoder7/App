@@ -23,11 +23,11 @@ var config_data = `
       "code": "l",
       "type": "level",
       "choices": {
-        "qm": "Quals<br>",
-        "de": "Double Elimination<br>",
-        "f": "Finals"
+        "qual match": "Quals<br>",
+        "double elims": "Double Elimination<br>",
+        "finals": "Finals"
       },
-      "defaultValue": "qm",
+      "defaultValue": "qual match",
       "required": "true"
     },
     { "name": "Match #",
@@ -41,12 +41,12 @@ var config_data = `
       "code": "r",
       "type": "robot",
       "choices": {
-        "r1": "Red-1",
-        "b1": "Blue-1<br>",
-        "r2": "Red-2",
-        "b2": "Blue-2<br>",
-        "r3": "Red-3",
-        "b3": "Blue-3"
+        "red1": "Red-1",
+        "blue1": "Blue-1<br>",
+        "red2": "Red-2",
+        "blue2": "Blue-2<br>",
+        "red3": "Red-3",
+        "blue3": "Blue-3"
       },
       "required":"true"
     },
@@ -96,11 +96,11 @@ var config_data = `
       "type":"radio",
       "choices": {
         "docked": "Docked (not Engaged)<br>",
-        "enaged": "Engaged<br>",
+        "engaged": "Engaged<br>",
         "attempted but failed": "Attempted but failed<br>",
         "Not Attemmpted": "Not attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "docked"
     }
   ],
   "teleop": [
@@ -148,12 +148,12 @@ var config_data = `
       "code": "cif",
       "type": "radio",
       "choices": {
-        "t": "Substation<br>",
-        "g": "Ground<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
+        "Substation": "Substation<br>",
+        "ground": "Ground<br>",
+        "both": "Both<br>",
+        "not attempted": "Not Attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "both"
     }
   ],
   "endgame": [
@@ -165,13 +165,13 @@ var config_data = `
       "code": "fs",
       "type":"radio",
       "choices": {
-        "p": "Parked<br>",
-        "d": "Docked (Not Engaged)<br>",
-        "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
-        "x": "Not attempted"
+        "parked": "Parked<br>",
+        "docked(not engaged)": "Docked (Not Engaged)<br>",
+        "engaged": "Engaged<br>",
+        "attempted but failed": "Attempted but failed<br>",
+        "not attempted": "Not attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "parked"
     },
     { "name": "# of alliance bots docked/engaged",
       "code": "cn",
@@ -183,12 +183,12 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
+        "not effective": "Not Effective<br>",
+        "average": "Average<br>",
+        "very effective": "Very Effective<br>",
+        "not observed": "Not Observed"
       },
-      "defaultValue": "x"
+      "defaultValue": "average"
     },
     { "name": "Links Scored",
       "code": "ls",
@@ -198,13 +198,13 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
+        "below average": "Below Average<br>",
+        "average": "Average<br>",
+        "good": "Good<br>",
+        "excellent": "Excellent<br>",
+        "did not play defense": "Did not play defense"
       },
-      "defaultValue": "x"
+      "defaultValue": "good"
     },
     { "name": "Swerve drive?",
       "code": "sd",
@@ -245,11 +245,11 @@ var config_data = `
       "code": "cnf",
       "type": "radio",
       "choices": {
-        "v": "Very Confident<br>",
-        "a": "Average<br>",
-        "n": "Not Confident"
+        "very confident": "Very Confident<br>",
+        "average": "Average<br>",
+        "not confident": "Not Confident"
         },
-      "defaultValue": "a"
+      "defaultValue": "average"
     }
   ]
 }`;
