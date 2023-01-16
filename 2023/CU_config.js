@@ -95,10 +95,10 @@ var config_data = `
       "code": "ad",
       "type":"radio",
       "choices": {
-        "d": "Docked (not Engaged)<br>",
-        "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
-        "x": "Not attempted"
+        "docked": "Docked (not Engaged)<br>",
+        "enaged": "Engaged<br>",
+        "attempted but failed": "Attempted but failed<br>",
+        "Not Attemmpted": "Not attempted"
       },
       "defaultValue": "x"
     }
