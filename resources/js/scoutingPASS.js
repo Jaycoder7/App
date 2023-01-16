@@ -647,12 +647,12 @@ function getRobot() {
 }
 
 function validateRobot() {
-  if (document.getElementById("input_r_r1").checked ||
-    document.getElementById("input_r_r2").checked ||
-    document.getElementById("input_r_r3").checked ||
-    document.getElementById("input_r_b1").checked ||
-    document.getElementById("input_r_b2").checked ||
-    document.getElementById("input_r_b3").checked
+  if (document.getElementById("input_r_red1").checked ||
+    document.getElementById("input_r_red2").checked ||
+    document.getElementById("input_r_red3").checked ||
+    document.getElementById("input_r_blue1").checked ||
+    document.getElementById("input_r_blue2").checked ||
+    document.getElementById("input_r_blue3").checked
   ) {
     return true
   } else {
@@ -662,23 +662,23 @@ function validateRobot() {
 }
 
 function resetRobot() {
-  if (document.getElementById("input_r_r1").checked) {
-    document.getElementById("input_r_r1").checked = false
+  if (document.getElementById("input_r_red1").checked) {
+    document.getElementById("input_r_red1").checked = false
   }
-  if (document.getElementById("input_r_r2").checked) {
-    document.getElementById("input_r_r2").checked = false
+  if (document.getElementById("input_r_red2").checked) {
+    document.getElementById("input_r_red2").checked = false
   }
-  if (document.getElementById("input_r_r3").checked) {
-    document.getElementById("input_r_r3").checked = false
+  if (document.getElementById("input_r_red3").checked) {
+    document.getElementById("input_r_red3").checked = false
   }
-  if (document.getElementById("input_r_b1").checked) {
-    document.getElementById("input_r_b1").checked = false
+  if (document.getElementById("input_r_blue1").checked) {
+    document.getElementById("input_r_blue1").checked = false
   }
-  if (document.getElementById("input_r_b2").checked) {
-    document.getElementById("input_r_b2").checked = false
+  if (document.getElementById("input_r_blue2").checked) {
+    document.getElementById("input_r_blue2").checked = false
   }
-  if (document.getElementById("input_r_b3").checked) {
-    document.getElementById("input_r_b3").checked = false
+  if (document.getElementById("input_r_blue3").checked) {
+    document.getElementById("input_r_blue3").checked = false
   }
 }
 
