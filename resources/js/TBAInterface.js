@@ -17,6 +17,7 @@ function getTeams(eventCode) {
 			if (this.readyState == 4 && this.status == 200) {
 				var response = this.responseText;
 				teams = JSON.parse(response);
+				console.log("Works");
 			}
 		};
 		// Send request
@@ -39,6 +40,7 @@ function getSchedule(eventCode) {
 			if (this.readyState == 4 && this.status == 200) {
 				var response = this.responseText;
 				schedule = JSON.parse(response);
+				console.log("trying");
 			}
 		};
 		// Send request
