@@ -629,17 +629,17 @@ function configure() {
 }
 
 function getRobot() {
-  if (document.getElementById("input_r_r1").checked) {
+  if (document.getElementById("input_r_red1").checked) {
     return "r1";
-  } else if (document.getElementById("input_r_r2").checked) {
+  } else if (document.getElementById("input_r_red2").checked) {
     return "r2";
-  } else if (document.getElementById("input_r_r3").checked) {
+  } else if (document.getElementById("input_r_red3").checked) {
     return "r3";
-  } else if (document.getElementById("input_r_b1").checked) {
+  } else if (document.getElementById("input_r_blue1").checked) {
     return "b1";
-  } else if (document.getElementById("input_r_b2").checked) {
+  } else if (document.getElementById("input_r_blue2").checked) {
     return "b2";
-  } else if (document.getElementById("input_r_b3").checked) {
+  } else if (document.getElementById("input_r_blue3").checked) {
     return "b3";
   } else {
     return "";
