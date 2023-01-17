@@ -45,5 +45,6 @@ function getSchedule(eventCode) {
 		};
 		// Send request
 		xmlhttp.send();
+		console.log("done?")
 	}
 }
