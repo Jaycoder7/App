@@ -1065,7 +1065,7 @@ function getCurrentTeamNumberFromRobot() {
 }
 
 function getCurrentMatchKey() {
-	console.log("also here");
+	console.log(document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value);
   return document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value;
 	
 }
