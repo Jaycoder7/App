@@ -686,9 +686,9 @@ function resetRobot() {
 function getLevel() {
   if (document.getElementById("input_l_qual match").checked) {
     return "qual match";
-  } else if (document.getElementById("input_l_de").checked) {
+  } else if (document.getElementById("input_l_Double Elimination").checked) {
     return "de";
-  } else if (document.getElementById("input_l_f").checked) {
+  } else if (document.getElementById("input_l_Finals").checked) {
     return "f";
   } else {
     return "";
@@ -697,8 +697,8 @@ function getLevel() {
 
 function validateLevel() {
   if (document.getElementById("input_l_qual match").checked ||
-    document.getElementById("input_l_de").checked ||
-    document.getElementById("input_l_f").checked
+    document.getElementById("input_l_Double Elimination").checked ||
+    document.getElementById("input_l_Finals").checked
   ) {
     return true
   } else {
