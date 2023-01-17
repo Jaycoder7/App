@@ -1066,10 +1066,12 @@ function getCurrentTeamNumberFromRobot() {
 
 function getCurrentMatchKey() {
   return document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value;
+	console.log("also here");
 }
 
 function getCurrentMatch() {
   return getMatch(getCurrentMatchKey());
+	console.log("here");
 }
 
 function updateMatchStart(event) {
