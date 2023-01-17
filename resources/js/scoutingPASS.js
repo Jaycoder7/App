@@ -1032,6 +1032,7 @@ function getIdBase(name) {
 
 function getTeamName(teamNumber) {
   if (teamNumber !== undefined) {
+	  console.log(teamNumber)
     if (teams) {
       var teamKey = "frc" + teamNumber;
       var ret = "";
@@ -1045,7 +1046,7 @@ function getTeamName(teamNumber) {
 function getMatch(matchKey) {
   //This needs to be different than getTeamName() because of how JS stores their data
   if (matchKey !== undefined) {
-	  console.log("hi")
+	  console.log("matchKey")
     if (schedule) {
       var ret = "";
       Array.from(schedule).forEach(match => ret = match.key == matchKey ? match.alliances : ret);
