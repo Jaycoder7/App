@@ -1045,9 +1045,11 @@ function getTeamName(teamNumber) {
 function getMatch(matchKey) {
   //This needs to be different than getTeamName() because of how JS stores their data
   if (matchKey !== undefined) {
+	  console.log("hi")
     if (schedule) {
       var ret = "";
       Array.from(schedule).forEach(match => ret = match.key == matchKey ? match.alliances : ret);
+	    console.log(ret)
       return ret;
     }
   }
@@ -1057,6 +1059,7 @@ function getMatch(matchKey) {
 function getCurrentTeamNumberFromRobot() {
   if (getRobot() != "" && typeof getRobot() !== 'undefined' && getCurrentMatch() != "") {
     if (getRobot().charAt(0) == "r") {
+	    console.log(getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 1])
       return getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 1]
     } else if (getRobot().charAt(0) == "b") {
       return getCurrentMatch().blue.team_keys[parseInt(getRobot().charAt(1)) - 1]
