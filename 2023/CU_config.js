@@ -17,6 +17,7 @@ var config_data = `
       "type": "event",
       "defaultValue": "2022flwp",
       "required": "true"
+      "disabled": "true"
     },
     { "name": "Match Level",
       "code": "l",
