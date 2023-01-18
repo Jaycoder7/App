@@ -22,8 +22,8 @@ var config_data = `
       "code": "l",
       "type": "level",
       "choices": {
-        "qual match": "Quals<br>",
-        "double elims": "Double Elimination<br>",
+        "quals": "Quals<br>",
+        "elims": "Double Elimination<br>",
         "finals": "Finals"
       },
       "defaultValue": "qual match",
