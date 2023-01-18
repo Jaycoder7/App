@@ -1048,7 +1048,7 @@ function getTeamName(teamNumber) {
 function getMatch(matchKey) {
   //This needs to be different than getTeamName() because of how JS stores their data
   if (matchKey !== undefined) {
-	  console.log("matchKey")
+	  console.log(matchKey);
     if (schedule) {
       var ret = "";
       Array.from(schedule).forEach(match => ret = match.key == matchKey ? match.alliances : ret);
