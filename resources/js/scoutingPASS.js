@@ -1032,11 +1032,13 @@ function getIdBase(name) {
 
 function getTeamName(teamNumber) {
   if (teamNumber !== undefined) {
-	  console.log(teamNumber)
+	  console.log(teamNumber);
     if (teams) {
       var teamKey = "frc" + teamNumber;
       var ret = "";
       Array.from(teams).forEach(team => ret = team.key == teamKey ? team.nickname : ret);
+	    console.log(ret);
+	    console.log(Array.from(teams).forEach(team => ret = team.key == teamKey ? team.nickname : ret));
       return ret;
     }
   }
