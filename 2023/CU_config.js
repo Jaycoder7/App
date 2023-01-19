@@ -26,7 +26,7 @@ var config_data = `
         "elims": "Double Elimination<br>",
         "finals": "Finals"
       },
-      "defaultValue": "qual match",
+      "defaultValue": "quals",
       "required": "true"
     },
     { "name": "Match #",
