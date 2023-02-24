@@ -96,7 +96,7 @@ var config_data = `
       "choices": {
         "docked": "Docked (not Engaged)<br>",
         "engaged": "Engaged<br>",
-        "attempted but failed": "Attempted but failed<br>",
+        "attempted-failed": "Attempted but failed<br>",
         "Not Attemmpted": "Not attempted"
       },
       "defaultValue": "docked"
@@ -167,7 +167,7 @@ var config_data = `
         "parked": "Parked<br>",
         "docked(not engaged)": "Docked (Not Engaged)<br>",
         "engaged": "Engaged<br>",
-        "attempted but failed": "Attempted but failed<br>",
+        "attempted-failed": "Attempted but failed<br>",
         "not attempted": "Not attempted"
       },
       "defaultValue": "parked"
@@ -182,10 +182,11 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "not effective": "Not Effective<br>",
-        "average": "Average<br>",
-        "very effective": "Very Effective<br>",
-        "not observed": "Not Observed"
+        "1": "1<br>",
+        "2": "2<br>",
+        "3": "3<br>",
+        "4": "4<br>",
+        "5": "5"
       },
       "defaultValue": "average"
     },
@@ -197,11 +198,12 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "below average": "Below Average<br>",
-        "average": "Average<br>",
-        "good": "Good<br>",
-        "excellent": "Excellent<br>",
-        "did not play defense": "Did not play defense"
+        "1": "1<br>",
+        "2": "2<br>",
+        "3": "3<br>",
+        "4": "4<br>",
+        "5": "5<br>", 
+        "NA": "NA"
       },
       "defaultValue": "good"
     },
@@ -244,11 +246,13 @@ var config_data = `
       "code": "cnf",
       "type": "radio",
       "choices": {
-        "very confident": "VeryConfident<br>",
-        "average": "Average<br>",
-        "not confident": "NotConfident"
+        "1": "1<br>",
+        "2": "2<br>",
+        "3": "3<br>"
+        "4": "4<br>",
+        "5": "5"
         },
-      "defaultValue": "average"
+      "defaultValue": "3"
     }
   ]
 }`;
