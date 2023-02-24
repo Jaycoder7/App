@@ -188,7 +188,7 @@ var config_data = `
         "4": "4<br>",
         "5": "5"
       },
-      "defaultValue": "average"
+      "defaultValue": "3"
     },
     { "name": "Links Scored",
       "code": "ls",
@@ -205,7 +205,7 @@ var config_data = `
         "5": "5<br>", 
         "NA": "NA"
       },
-      "defaultValue": "good"
+      "defaultValue": "3"
     },
     { "name": "Swerve drive?",
       "code": "sd",
@@ -248,7 +248,7 @@ var config_data = `
       "choices": {
         "1": "1<br>",
         "2": "2<br>",
-        "3": "3<br>"
+        "3": "3<br>",
         "4": "4<br>",
         "5": "5"
         },
