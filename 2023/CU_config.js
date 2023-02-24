@@ -244,9 +244,9 @@ var config_data = `
       "code": "cnf",
       "type": "radio",
       "choices": {
-        "very confident": "Very Confident<br>",
+        "very confident": "VeryConfident<br>",
         "average": "Average<br>",
-        "not confident": "Not Confident"
+        "not confident": "NotConfident"
         },
       "defaultValue": "average"
     }
