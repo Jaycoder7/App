@@ -3,7 +3,7 @@ var config_data = `
 
   "title": "Scouting App 2023",
   "page_title": "Charged Up",
-  "checkboxAs": "10",
+  "checkboxAs": "YN",
   "prematch": [
     { "name": "Scouter Initials",
       "code": "s",
