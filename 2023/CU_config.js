@@ -16,7 +16,8 @@ var config_data = `
       "code": "e",
       "type": "event",
       "defaultValue": "2022carv",
-      "required": "true"
+      "required": "true",
+      "disabled": "true"
     },
     { "name": "Match Level",
       "code": "l",
