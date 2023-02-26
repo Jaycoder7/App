@@ -1061,11 +1061,11 @@ function getMatch(matchKey) {
 
 function getCurrentTeamNumberFromRobot() {
   if (getRobot() != "" && typeof getRobot() !== 'undefined' && getCurrentMatch() != "") {
-    if (getRobot().charAt(0) == "r") {
+    if (getRobot().charAt(0) == "red") {
 	    console.log(getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 1])
-      return getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 1]
-    } else if (getRobot().charAt(0) == "b") {
-      return getCurrentMatch().blue.team_keys[parseInt(getRobot().charAt(1)) - 1]
+      return getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 3]
+    } else if (getRobot().charAt(0) == "blue") {
+      return getCurrentMatch().blue.team_keys[parseInt(getRobot().charAt(1)) - 3]
     }
   }
 }
