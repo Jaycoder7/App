@@ -1,7 +1,7 @@
 // TBAInterface funcitons to pull data from TheBlueAlliance.com
 var teams = null;
 var schedule = null;
-var authKey = "sdoMfw6ztjwn1qlkf7ASUIErdXZx5IP9AeFlmmeLWTeUmgFosHCjsvrbCKkJmgRf";
+var authKey = "uTHeEfPigDp9huQCpLNkWK7FBQIb01Qrzvt4MAjh9z2WQDkrsvNE77ch6bOPvPb6";
 /**
  * Get list of teams in event
  *
@@ -17,7 +17,6 @@ function getTeams(eventCode) {
 			if (this.readyState == 4 && this.status == 200) {
 				var response = this.responseText;
 				teams = JSON.parse(response);
-				console.log("Works");
 			}
 		};
 		// Send request
@@ -40,11 +39,9 @@ function getSchedule(eventCode) {
 			if (this.readyState == 4 && this.status == 200) {
 				var response = this.responseText;
 				schedule = JSON.parse(response);
-				console.log("trying");
 			}
 		};
 		// Send request
 		xmlhttp.send();
-		console.log("done?")
 	}
 }
