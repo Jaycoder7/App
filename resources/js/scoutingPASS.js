@@ -685,7 +685,7 @@ function resetRobot() {
 
 function getLevel() {
   if (document.getElementById("input_l_quals").checked) {
-    return "quals";
+    return "qm";
   } else if (document.getElementById("input_l_elims").checked) {
     return "de";
   } else if (document.getElementById("input_l_finals").checked) {
