@@ -148,10 +148,10 @@ var config_data = `
       "code": "cif",
       "type": "radio",
       "choices": {
-        "Substation": "Substation<br>",
-        "ground": "Ground<br>",
-        "both": "Both<br>",
-        "not attempted": "Not Attempted"
+        "SU": "Substation<br>",
+        "G": "Ground<br>",
+        "B": "Both<br>",
+        "NA": "Not Attempted"
       },
       "defaultValue": "both"
     }
@@ -165,11 +165,11 @@ var config_data = `
       "code": "fs",
       "type":"radio",
       "choices": {
-        "parked": "Parked<br>",
-        "docked(not engaged)": "Docked (Not Engaged)<br>",
-        "engaged": "Engaged<br>",
-        "attempted-failed": "Attempted but failed<br>",
-        "not attempted": "Not attempted"
+        "P": "Parked<br>",
+        "DE": "Docked (Not Engaged)<br>",
+        "E": "Engaged<br>",
+        "AF": "Attempted but failed<br>",
+        "NA": "Not attempted"
       },
       "defaultValue": "parked"
     },
