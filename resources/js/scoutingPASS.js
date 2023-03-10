@@ -684,7 +684,7 @@ function resetRobot() {
 
 
 function getLevel() {
-  if (document.getElementById("input_l_quals").checked) {
+  if (document.getElementById("input_l_qm").checked) {
     return "qm";
   } else if (document.getElementById("input_l_elims").checked) {
     return "de";
@@ -696,7 +696,7 @@ function getLevel() {
 }
 
 function validateLevel() {
-  if (document.getElementById("input_l_quals").checked ||
+  if (document.getElementById("input_l_qm").checked ||
     document.getElementById("input_l_elims").checked ||
     document.getElementById("input_l_finals").checked
   ) {
@@ -1061,14 +1061,14 @@ function getMatch(matchKey) {
 
 function getCurrentTeamNumberFromRobot() {
   if (getRobot() != "" && typeof getRobot() !== 'undefined' && getCurrentMatch() != "") {
-    if (getRobot().charAt(0) == "red") {
-	    console.log(getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 1])
+    if (getRobot().charAt(0) == "r") {
       return getCurrentMatch().red.team_keys[parseInt(getRobot().charAt(1)) - 1]
-    } else if (getRobot().charAt(0) == "blue") {
+    } else if (getRobot().charAt(0) == "b") {
       return getCurrentMatch().blue.team_keys[parseInt(getRobot().charAt(1)) - 1]
     }
   }
 }
+
 
 function getCurrentMatchKey() {
   return document.getElementById("input_e").value + "_" + getLevel() + document.getElementById("input_m").value;
