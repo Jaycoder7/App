@@ -23,7 +23,7 @@ var config_data = `
       "code": "l",
       "type": "level",
       "choices": {
-        "quals": "Quals<br>",
+        "qm": "Quals<br>",
         "elims": "Double Elimination<br>",
         "finals": "Finals"
       },
