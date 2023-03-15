@@ -56,6 +56,11 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
+    {
+    "name": "On Field",
+      "code": "ON",
+      "type": "bool"
+    },
     { "name": "Auto Start Position",
       "code": "as",
       "type": "field_image",
