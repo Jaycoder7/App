@@ -72,27 +72,27 @@ var config_data = `
       "code": "am",
       "type": "bool"
     },
-    { "name": "High Cube Scored",
+    { "name": "🟪 High Cube Scored",
       "code": "auh",
       "type": "counter"
     },
-    { "name": "Medium Cube Scored",
+    { "name": "🟪 Medium Cube Scored",
       "code": "aum",
       "type": "counter"
     },
-    { "name": "Low Cube Scored",
+    { "name": "🟪 Low Cube Scored",
       "code": "aul",
       "type": "counter"
     },
-    { "name": "🔺 High Cone Scored",
+    { "name": "⚠️ High Cone Scored",
       "code": "aoh",
       "type": "counter"
     },
-    { "name": "🔺 Medium Cone Scored",
+    { "name": "⚠️ Medium Cone Scored",
       "code": "aom",
       "type": "counter"
     },
-    { "name": "🔺 Low Cone Scored",
+    { "name": "⚠️ Low Cone Scored",
       "code": "aol",
       "type": "counter"
     },
@@ -113,27 +113,27 @@ var config_data = `
       "code": "tct",
       "type": "cycle"
     },
-    { "name": "High Cube Scored",
+    { "name": "🟪 High Cube Scored",
       "code": "tuh",
       "type": "counter"
     },
-    { "name": "Medium Cube Scored",
+    { "name": "🟪 Medium Cube Scored",
       "code": "tum",
       "type": "counter"
     },
-    { "name": "Low Cube Scored",
+    { "name": "🟪 Low Cube Scored",
       "code": "tul",
       "type": "counter"
     },
-    { "name": "High Cone Scored",
+    { "name": "⚠️ High Cone Scored",
       "code": "toh",
       "type": "counter"
     },
-    { "name": "Medium Cone Scored",
+    { "name": "⚠️ Medium Cone Scored",
       "code": "tom",
       "type": "counter"
     },
-    { "name": "Low Cone Scored",
+    { "name": "⚠️ Low Cone Scored",
       "code": "tol",
       "type": "counter"
     },
