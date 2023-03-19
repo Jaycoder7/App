@@ -25,26 +25,19 @@
 					</table>
 					<p class="match-label"><input type="button" value="Next" id="nextButton2" onclick="swipePage(1)"></p>
 					
-					<html><head>
-</head><body>
-    <video src="" ></video>
-    <br />
-<button id='flipCamera'>Flip</button>
-</body>
-<script>
-  var front = false;
-var video = document.querySelector('video');
-  document.getElementById('flipCamera').onclick = function() { front = !front; };
-  var constraints = { video: { facingMode: (front? "user" : "environment"), width: 640, height: 480  } };
-  navigator.mediaDevices.getUserMedia(constraints)
-  .then(function(mediaStream) {
-    video.srcObject = mediaStream;
-    video.onloadedmetadata = function(e) {
-    video.play();
-};
-})
-.catch(function(err) { console.log(err.name + ": " + err.message); })
-</script></html>
+<!-- Camera -->
+<main id="camera">
+    <!-- Camera sensor -->
+    <canvas id="camera--sensor"></canvas>
+    
+    <!-- Camera view -->
+    <video id="camera--view" autoplay playsinline></video>
+    
+    <!-- Camera output -->
+    <img src="//:0" alt="" id="camera--output">
+    <!-- Camera trigger -->
+    <button id="camera--trigger">Take a picture</button>
+</main>
 					
 					
 				</div>
