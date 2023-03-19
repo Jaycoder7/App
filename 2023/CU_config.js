@@ -84,15 +84,15 @@ var config_data = `
       "code": "aul",
       "type": "counter"
     },
-    { "name": "High Cone Scored",
+    { "name": "🔺 High Cone Scored",
       "code": "aoh",
       "type": "counter"
     },
-    { "name": "Medium Cone Scored",
+    { "name": "🔺 Medium Cone Scored",
       "code": "aom",
       "type": "counter"
     },
-    { "name": "Low Cone Scored",
+    { "name": "🔺 Low Cone Scored",
       "code": "aol",
       "type": "counter"
     },
