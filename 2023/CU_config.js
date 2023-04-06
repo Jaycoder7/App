@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023gacar",
+      "defaultValue": "2023gacmp",
       "required": "true",
       "disabled": "true"
     },
